@@ -129,8 +129,8 @@ while true; do
 	# Logo
 	curl -s https://raw.githubusercontent.com/skyMetaverse/nodeHelper/master/logo/logo.sh | bash
 
-	_blue "=	   Autonity Node Manager Script          ="
-	_blue "=================================================="
+	_blue "=	   Autonity Node Manager Script                 ="
+	_blue "======================================================"
 	_read_input
 	case $choice in
 	1)
