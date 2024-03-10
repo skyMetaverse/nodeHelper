@@ -1,5 +1,7 @@
 # Autonity Node Manager Script
 
+![这是图片](./example.png "example")
+
 ## Description
 `autonity-node-manager.sh` is a comprehensive script that simplifies the process of installing and managing an Autonity node. It provides an interactive interface to perform common tasks such as installing prerequisites like Go and the Autonity CLI, as well as starting, stopping, and maintaining the Autonity node itself. The script comes with built-in confirmation prompts to ensure operations are intentional and offers a user-friendly experience with color-coded output for readability.
 
