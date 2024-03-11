@@ -86,7 +86,7 @@ Description=Clearmatics Autonity node Server
 After=syslog.target network.target
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/autonity --datadir /data/autonity-chaindata --piccadilly --http --http.addr 0.0.0.0 --http.api aut,eth,net,txpool,web3,admin --http.vhosts "*" --ws --ws.addr 0.0.0.0 --ws.api aut,eth,net,txpool,web3,admin --nat extip:$(curl -s eth0.me)
+ExecStart=/usr/local/bin/autonity --datadir /data/autonity-chaindata --piccadilly --http --http.addr 0.0.0.0 --http.api aut,eth,net,txpool,web3,admin --http.vhosts "*" --ws --ws.addr 0.0.0.0 --ws.api aut,eth,net,txpool,web3,admin --nat extip:$(curl -s ifconfig.me)
 KillMode=process
 KillSignal=SIGINT
 TimeoutStopSec=5
