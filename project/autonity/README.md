@@ -20,7 +20,7 @@
 ## Usage
 To use the script, simply run it from the command line:
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/skyMetaverse/nodeHelper/master/project/autonity/autonity-node-manager.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/skyMetaverse/nodeHelper/main/project/autonity/autonity-node-manager.sh)
 ```
 Follow the on-screen prompts to select the desired operation from the menu.
 

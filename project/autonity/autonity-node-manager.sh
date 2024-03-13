@@ -121,7 +121,7 @@ _read_input() {
 	_purple "6. View Autonity node log"
 	_purple "7. View Autonity node info"
 	_purple "8. Exit"
-	read -p "Enter your choice (1-7): " choice
+	read -p "Enter your choice (1-8): " choice
 }
 
 # Main script
